@@ -105,8 +105,13 @@ span {
 }
 
 .home-img img {
-    width: 35vw;
+    width: 353vw;
     animation: floatImage 4s ease-in-out infinite;
+    /* new  */
+    width: 250px;        
+  height: 250px;       
+  border-radius: 50%;  
+  object-fit: cover;  
 }
 
 @keyframes floatImage {
@@ -526,7 +531,7 @@ span {
     .footer p{
         text-align: center;
         margin-top: 2rem;
-    }
+    } }
 
     /* send message  */
     .send-btn {
@@ -544,3 +549,27 @@ span {
   background: #00f0ff;
   box-shadow: 0 0 15px #00f0ff;
 }
+
+/* temp  */
+.orcid-logo {
+  width: 40px;          /* size */
+  opacity: 0.7;         /* transparency (0 = invisible, 1 = solid) */
+  transition: opacity 0.3s ease;  /* smooth hover effect */
+}
+
+.orcid-logo:hover {
+  opacity: 1;           /* full green when hovered */
+}
+.pro {
+  font-size: 22px;      /* increase text size */
+  line-height: 1.8;     /* spacing between lines */
+  margin: 20px auto;    /* spacing from title */
+  max-width: 1000px;    /* keeps text readable */
+  color: #f5f5f5;       /* light grey text */
+  list-style-position: inside; /* numbers aligned */
+}
+
+.pro li {
+  margin-bottom: 10px;  /* space between each project */
+}
+
