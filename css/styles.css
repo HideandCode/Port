@@ -552,25 +552,25 @@ span {
 
 /* temp  */
 .orcid-logo {
-  width: 40px;          /* size */
-  opacity: 0.7;         /* transparency (0 = invisible, 1 = solid) */
-  transition: opacity 0.3s ease;  /* smooth hover effect */
+  width: 40px;          
+  opacity: 0.7;         
+  transition: opacity 0.3s ease;  
 }
 
 .orcid-logo:hover {
-  opacity: 1;           /* full green when hovered */
+  opacity: 1;           
 }
 .pro {
-  font-size: 22px;      /* increase text size */
-  line-height: 1.8;     /* spacing between lines */
-  margin: 20px auto;    /* spacing from title */
-  max-width: 1000px;    /* keeps text readable */
-  color: #f5f5f5;       /* light grey text */
-  list-style-position: inside; /* numbers aligned */
+  font-size: 22px;     
+  line-height: 1.8;    
+  margin: 20px auto;   
+  max-width: 1000px;    
+  color: #f5f5f5;       
+  list-style-position: inside; 
 }
 
 .pro li {
-  margin-bottom: 10px;  /* space between each project */
+  margin-bottom: 10px;  
 }
 /* neww */
 #contact {
@@ -579,7 +579,7 @@ span {
   padding: 60px 20px;
 }
 
-/* Background image with blur */
+
 #contact::before {
   content: "";
   position: absolute;
@@ -587,13 +587,13 @@ span {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("/Port/images/space-image.jpg") no-repeat center center/cover;
+  background: url("/Port/images/space-image.png") no-repeat center center/cover;
   filter: blur(8px);
-  transform: scale(1.1); /* prevents blur edges */
+  transform: scale(1.1); 
   z-index: -1;
 }
 
-/* Transparent form box */
+
 .contact-container {
   position: relative;
   z-index: 1;
@@ -603,7 +603,7 @@ span {
   max-width: 600px;
   margin: auto;
   color: #fff;
-  backdrop-filter: blur(5px); /* adds glassy effect */
+  backdrop-filter: blur(5px); 
   border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
